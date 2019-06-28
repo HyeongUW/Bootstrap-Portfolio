@@ -11,7 +11,7 @@
 <head>
 
   <meta charset="UTF-8">
-  <title>Coding Boot Camp!</title>
+  <title>Hyeong's Website</title>
 
   <!-- We link our html to the Bootstrap CDN -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
@@ -28,7 +28,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
       <!-- Our brand / logo -->
-      <a class="navbar-brand" href="#">Hyeong Suk Kim</a>
+      <a class="navbar-brand" href="index.html">Hyeong Suk Kim</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -53,37 +53,48 @@
       </div>
     </nav>
 
-    <!-- Jumbotron element -->
-    <div class="jumbotron">
-
-      <!-- centered text -->
-      <h1 class="text-center"><strong>Geographic Information System</strong></h1>
-      <h2 class="text-center">Projects</h2>
-      
-
-      <!-- button with predefined style rules -->
-      <p class="text-center">
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-      </p>
-    </div>
-
+    
     <!-- a Bootstrap row with columns -->
     <div class="row">
 
       <!-- At large+ screens takes up half width (6/12) -->
-      <div class="col-lg-6">
-
-        <!-- centered image with thumbnail rules -->
-        <img class="img thumbnail center-block" src="assets/images/profile.jpg" alt="myProfile" width="70%">
-        
-      </div>
-      <div class="col-lg-6">
-        <p>Senior undergraduate student currently pursuing a Bachelor’s degree in Geographic Information System/Science and a Minor in Informatics.</p>
-        <p>Seeking to leverage my spatial analytic skills to blend both technical and policy compliance in GIS to support a decision of current geographical issues.</p>
-        <p>The courses I found most interesting were those related to programming, and I have managed myself to learn more about several programming languages inside and outside of the courses. I am capable of reading and writing in C and C++, and I am also capable of using JAVA and R. In addition, I have an entry level knowledge about data structure.</p>
-      </div>
-      
+        <div class="col-lg-12">
+            <div class="input-group input-group-lg">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-lg">Name</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+            </div>
+        </div>
     </div>
+
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="input-group input-group-lg">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-lg">Email</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+            </div>
+        </div>            
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="input-group input-group-lg">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-lg">Message</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+            </div>
+        </div>            
+    </div>
+
+    <div class="mx-auto" style="width: 10%;">
+        <button type="button" class="btn btn-primary">Submit</button>
+    </div>
+    
+
   </div>
 
   <!-- jQuery, javascript file for the Bootstrap's javascript file to function -->
