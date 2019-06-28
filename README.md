@@ -1,6 +1,6 @@
 # Bootstrap-Portfolio
 
-## Overview
+### Overview
 Assignment One Instructions (Bootstrap)
 
 
@@ -13,7 +13,7 @@ Using Bootstrap, recreate your portfolio site with the following items:
 * Responsive images
 
 
-##BONUS
+### BONUS
    Using Bootstrap, make a sticky footer and use sub-rows and sub-columns on your portfolio site (Hint: Check out the Bootstrap documentation)
 1. Your Bootstrap solution should minimize use of media queries.
 2. Deploy your new Bootstrap-powered portfolio to GitHub Pages.
